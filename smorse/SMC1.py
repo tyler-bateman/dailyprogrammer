@@ -39,7 +39,7 @@ def smorseRecursive(encodedFragment, solvedPortion):
 
             matchesList.append(solvedPortion)
             #print(solvedPortion)
-        ## TODO: Validate solutions in the master list
+        
     else:
         for i in range(1, min(len(encodedFragment) + 1, 5)):
             curLetter = encodedFragment[:i]
